@@ -42,11 +42,6 @@ def distribution(data, feature_label, transformed = False):
         ax.set_yticks([0, 200, 400, 600, 800])
         ax.set_yticklabels([0, 200, 400, 600, 800])
         
-        # white wine 
-        #ax.set_ylim((0, 2500))
-        #ax.set_yticks([0, 500, 1000, 1500, 2000, 2500])
-        #ax.set_yticklabels([0, 500, 1000, 1500, 2000, 2500])
-        
     # plot aesthetics
     if transformed:
         fig.suptitle("Log-Transformed Distributions", \
